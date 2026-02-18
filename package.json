@@ -1,0 +1,15 @@
+{
+  "name": "url-shortener",
+  "version": "2.0.0",
+  "description": "Acortador de URLs con Vercel y MongoDB",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}
